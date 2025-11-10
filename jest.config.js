@@ -1,7 +1,6 @@
 export default {
     testEnvironment: "jsdom",
     coverageProvider: "v8",
-    collectCoverage: true,
     setupFilesAfterEnv: ["<rootDir>/tests/setupTests.ts"],
     testMatch: ["<rootDir>/tests/**/*.(spec).(ts|tsx)"],
     testPathIgnorePatterns: ["<rootDir>/tests/e2e/"],
